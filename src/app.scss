@@ -1,0 +1,26 @@
+.App {
+  padding-top: 50px;
+  max-width: 30%;
+  margin: 0 auto;
+  .main_title {
+    margin: 50px 0;
+  }
+  .welcome_title {
+    margin-top: 30px;
+    font-size: 12px;
+    margin-bottom: 80px;
+    color: #778899;
+    font-weight: 500;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+
+    .MuiTextField-root {
+      width: 100%;
+    }
+  }
+}
