@@ -1,0 +1,33 @@
+.msg_cards_box {
+  margin-top: 60px;
+  .msg_card {
+    display: block;
+    margin: 10px 0;
+    width: fit-content;
+    text-align: left;
+
+    .MuiCardContent-root {
+      padding: 8px 10px;
+
+      .user_name {
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .user_msg {
+        font-size: 18px;
+      }
+    }
+
+    &.msg_user_card {
+      margin-left: auto;
+      background: #006aff;
+      color: #fff;
+
+      .user_name {
+        color: #fff;
+        text-align: right;
+      }
+    }
+  }
+}
